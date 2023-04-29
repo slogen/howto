@@ -3,11 +3,11 @@
 
 In an admin shell:
 
-C:\Windows\system32>dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
-C:\Windows\system32>dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
-C:\Windows\system32>dism.exe /Online /Enable-Feature /All /FeatureName:Microsoft-Hyper-V
+  C:\Windows\system32>dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+  C:\Windows\system32>dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+  C:\Windows\system32>dism.exe /Online /Enable-Feature /All /FeatureName:Microsoft-Hyper-V
 
 Restart (if it wasn't already installed) 
 
-C:\Windows\system32>Restart-Computer -Force
+  C:\Windows\system32>Restart-Computer -Force
 
