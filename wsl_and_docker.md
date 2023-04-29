@@ -1,4 +1,4 @@
-# Installing WSL on Win10, Win11 or Windows Server 2022+
+# Installing Docker in WSL on Win10, Win11 or Windows Server 2022+
 ## Enable WSL
 
 In an admin shell: "C:\Windows\system32>"
