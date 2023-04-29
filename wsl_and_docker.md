@@ -46,8 +46,8 @@ You can choose any name and password you want. *Neither* will be synced with you
 
 Setup so your default user can sudo without password:
 
-hej@HEJ-E14:~$ echo "$USER ALL = NOPASSWD: ALL" | sudo tee /etc/sudoers.d/user_nopass
-
+        hej@HEJ-E14:~$ echo "$USER ALL = NOPASSWD: ALL" | sudo tee /etc/sudoers.d/user_nopass
+        
         We trust you have received the usual lecture from the local System
         Administrator. It usually boils down to these three things:
 
