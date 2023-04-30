@@ -230,5 +230,16 @@ Now you must start a *new* shell from the UI, but from that:
      https://docs.docker.com/get-started/
 
 
+# Remote running
+
+The newest WSL from Microsoft Store has a bug that causes it to fail running from console, so SSH-based logins will fail on that.
+To remove MS Store version, use a PowerShell as Administrator:
+
+    PS C:\Windows\system32>  Get-AppxPackage -AllUser | where-object {$_.name -match "MicrosoftCorporationII.WindowsSubsystemForLinux"} | Remove-AppxPackage -AllUsers
+
+Othersise your may get:
+
+        sloghome\hej@HEJ-E14 C:\Users\hej>wsl --shutdown
+        The file cannot be accessed by the system.
 
 
