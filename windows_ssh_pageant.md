@@ -7,7 +7,7 @@
 
 ## Setup Pageant openssh-config thingy
 
-Start your pageant to enable loading keys, but not decrypting them, and ensure that :
+Start your pageant to enable loading keys, but not decrypting them:
 
     pageant --encrypted "G:\My Drive\Keys\hej_ed25519.ppk" --openssh-config %HOMEDRIVE%%HOMEPATH%\pageant.conf
     
